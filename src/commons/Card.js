@@ -3,10 +3,7 @@ const Card = ({ data }) => {
     <div className="card">
       <div className="card-image">
         <figure className="image">
-          <img
-            src={data.images[0].url}
-            alt="Placeholder image"
-          />
+          <img src={data.images[0].url} alt="Placeholder image" />
         </figure>
       </div>
       <div className="card-content">
